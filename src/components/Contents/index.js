@@ -1,4 +1,4 @@
-function Home() {
+export default function Contents() {
     return (
         <>
             <div className="container-fluid text-center text-white bg-danger d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
@@ -13,5 +13,3 @@ function Home() {
         </>
     );
 }
-
-export default Home;
